@@ -46,4 +46,9 @@ Rento::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  # Compress both stylesheets and JavaScripts - added by Steve Hayes 11/08/11
+  config.assets.js_compressor  = :uglifier
+  config.assets.css_compressor = :scss
+
 end

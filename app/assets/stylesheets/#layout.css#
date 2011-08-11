@@ -1,0 +1,11 @@
+body { 
+ margin: 0;
+ padding: 0;
+ background-colour: #FFF;
+ font-family: verdana;
+ font-size: 14px;
+}
+
+#header {
+ background-color: #03507B;
+ color: #FFF;

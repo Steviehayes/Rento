@@ -1,0 +1,25 @@
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+// Define app-specific colors first  
+    !green = #191  
+    !gray = #555  
+      
+    // Now define globally applicable, general styles  
+      
+    body  
+      :font-family Arial, sans-serif  
+        
+    a  
+      :color = !green  
+      :text-decoration none  
+      :font-weight bold  
+      
+    // Now import all of your other SASS files, they will be  
+    // automatically included in the same generated CSS file  
+    // at compile time.  
+      
+    @import artists.css.scss  
+    @import application.css.scss 

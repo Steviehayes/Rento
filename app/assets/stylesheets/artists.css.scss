@@ -1,0 +1,39 @@
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+/* Variable Definitions*/
+
+$page-width:    800px;
+$sidebar-width: 200px;
+$primary-color: #eeeeee;
+
+/* Global Attributes */
+
+body {
+  font: {
+    family: sans-serif;
+    size: 30em;
+    weight: bold;
+  }
+}
+
+/* Scoped Styles */
+
+#contents {
+  width: $page-width;
+  #sidebar {
+    float: right;
+    width: $sidebar-width;
+  }
+  #main {
+    width: $page-width - $sidebar-width;
+    background: $primary-color;
+    h2 { color: blue; }
+  }
+}
+
+#footer {
+  height: 200px;
+}
