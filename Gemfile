@@ -10,6 +10,7 @@ gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 gem 'json'
+gem 'fastercsv'
 
 # Use unicorn as the web server
 # gem 'unicorn'
